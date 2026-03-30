@@ -2,36 +2,25 @@ import "./App.css";
 
 function Formulario() {
   return (
-    <div className="formulario">
+    <div class="formulario">
       <h2>CREAR MI CITA</h2>
       
-      <div className="campo-form">
-        <label>NOMBRE MASCOTA</label>
-        <input 
-          type="text" 
-          placeholder="Nombre de la mascota"
-          defaultValue=""
-        />
+      <div class="ingresar-form">
+        <label>NOMBRE  DE LA MASCOTA</label>
+        <input type="text" placeholder="Nombre de la mascota"/>
       </div>
       
-      <div className="campo-form">
-        <label>NOMBRE DUEÑO</label>
-        <input 
-          type="text" 
-          placeholder="Nombre del dueño de la mascota"
-          defaultValue=""
-        />
+      <div class="ingresar-form">
+        <label>NOMBRE  DEL DUEÑO</label>
+        <input type="text" placeholder="Nombre del dueño de la mascota"/>
       </div>
       
-      <div className="campo-form">
+      <div class="ingresar-form">
         <label>FECHA</label>
-        <input 
-          type="date" 
-          defaultValue=""
-        />
+        <input type="date"/>
       </div>
       
-      <div className="campo-form">
+      <div class="ingresar-form">
         <label>HORA</label>
         <input 
           type="time" 
@@ -39,15 +28,12 @@ function Formulario() {
         />
       </div>
       
-      <div className="campo-form">
+      <div class="ingresar-form">
         <label>SÍNTOMAS</label>
-        <textarea 
-          placeholder="Describa los síntomas de la mascota"
-          defaultValue=""
-        />
+        <textarea placeholder="Describa los síntomas de la mascota"/>
       </div>
       
-      <button className="btn-agregar">
+      <button class="boton-agregar">
         AGREGAR CITA
       </button>
     </div>

@@ -2,33 +2,33 @@ import "./App.css";
 
 function Cita({ mascota, dueno, fecha, hora, sintomas }) {
   return (
-    <div className="cita-card">
+    <div class="cita-card">
       <div className="cita-header">
         <div className="mascota-nombre">{mascota}</div>
-        <button className="btn-eliminar">
+        <button class="boton-eliminar">
           ELIMINAR
         </button>
       </div>
       
-      <div className="cita-detalles">
-        <div className="detalle-item">
-          <span className="detalle-label">Dueño:</span>
-          <span className="detalle-valor">{dueno}</span>
+      <div class="cita-detalles">
+        <div class="detalle-item">
+          <span class="detalle-label">Dueño:</span>
+          <span class="detalle-valor">{dueno}</span>
         </div>
         
-        <div className="detalle-item">
-          <span className="detalle-label">Fecha:</span>
-          <span className="detalle-valor">{fecha}</span>
+        <div class="detalle-item">
+          <span class="detalle-label">Fecha:</span>
+          <span class="detalle-valor">{fecha}</span>
         </div>
         
-        <div className="detalle-item">
-          <span className="detalle-label">Hora:</span>
-          <span className="detalle-valor">{hora}</span>
+        <div class="detalle-item">
+          <span class="detalle-label">Hora:</span>
+          <span class="detalle-valor">{hora}</span>
         </div>
         
-        <div className="sintomas-texto">
-          <span className="detalle-label">Síntomas:</span>
-          <span className="detalle-valor">{sintomas}</span>
+        <div class="sintomas-texto">
+          <span class="detalle-label">Síntomas:</span>
+          <span class="detalle-valor">{sintomas}</span>
         </div>
       </div>
     </div>

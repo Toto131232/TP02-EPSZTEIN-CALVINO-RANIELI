@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Formulario from "./Formulario";
 import Listado from "./Listado";
+import ResumenCitas from "./ResumenCitas";
 import "./App.css";
 
 function App() {
@@ -32,14 +33,16 @@ function App() {
   ]);
 
   return (
-    <div className="app">
+    <div class="app">
       <h1>ADMINISTRADOR DE CITAS VETERINARIA</h1>
 
-      <div className="contenedor">
+      <div class="contenedor">
         <Formulario />
         <Listado citas={citas} />
       </div>
+      <ResumenCitas citas={citas} />
     </div>
+    
   );
 }
 

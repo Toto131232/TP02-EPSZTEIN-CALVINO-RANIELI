@@ -3,15 +3,12 @@ import "./App.css";
 
 function Listado({ citas }) {
   return (
-    <div className="listado">
+    <div class="listado">
       <h2>ADMINISTRA TUS CITAS</h2>
       
-      <div className="lista-contenedor">
+      <div class="lista-contenedor">
         {citas.length === 0 ? (
-          <div className="empty-state">
-            <p>🐾</p>
-            <p>No hay citas registradas</p>
-            <p>¡Agrega tu primera cita!</p>
+          <div class="comprobar">
           </div>
         ) : (
           citas.map((cita) => (
