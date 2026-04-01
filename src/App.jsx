@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Formulario from "./Formulario";
 import Listado from "./Listado";
-import ResumenCitas from "./ResumenCitas";
 import "./App.css";
 
 function App() {
@@ -40,7 +39,6 @@ function App() {
         <Formulario />
         <Listado citas={citas} />
       </div>
-      <ResumenCitas citas={citas} />
     </div>
     
   );
