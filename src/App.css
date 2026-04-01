@@ -58,7 +58,6 @@ body {
 
 .ingresar-form textarea {
   height: 80px;
-  resize: none;
 }
 .boton-agregar {
   width: 100%;
@@ -70,7 +69,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
-  transition: 0.2s;
 }
 .boton-agregar:hover {
   background-color: #2a9bc0;
@@ -130,7 +128,7 @@ body {
   margin-bottom: 5px;
 }
 
-.detalle-label {
+.detalle1 {
   font-weight: bold;
   margin-right: 5px;
 }
@@ -138,4 +136,3 @@ body {
 .sintomas-texto {
   margin-top: 8px;
 }
-

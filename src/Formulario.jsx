@@ -4,7 +4,7 @@ import "./App.css";
 
 function Formulario() {
   return (
-    <div className="formulario">
+    <div class="formulario">
       <h2>CREAR MI CITA</h2>
 
       <Campo label="NOMBRE DE LA MASCOTA" type="text" placeholder="Nombre de la mascota" />

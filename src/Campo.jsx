@@ -2,7 +2,7 @@ import "./App.css";
 
 function Campo({ label, type, placeholder }) {
   return (
-    <div className="ingresar-form">
+    <div class="ingresar-form">
       <label>{label}</label>
       {type === "textarea" ? (
         <textarea placeholder={placeholder}></textarea>
@@ -13,4 +13,4 @@ function Campo({ label, type, placeholder }) {
   );
 }
 
-export default Campo;
+export default Campo; 
