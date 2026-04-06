@@ -13,4 +13,4 @@ function Campo({ label, type, placeholder }) {
   );
 }
 
-export default Campo; 
+export default Campo;

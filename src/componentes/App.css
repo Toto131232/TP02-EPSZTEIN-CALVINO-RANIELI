@@ -1,3 +1,5 @@
+/*ESTE ES EL BIEN*/
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +7,10 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 body {
   min-height: 100vh;
   background: linear-gradient(180deg, #b52a86 0%, #e60073 100%);
 }
-
 
 .app {
   text-align: center;
@@ -24,14 +24,12 @@ body {
   margin-bottom: 40px;
 }
 
-
 .contenedor {
   display: flex;
   justify-content: center;
   gap: 50px;
   align-items: flex-start;
 }
-
 
 .formulario {
   width: 400px;
@@ -44,7 +42,6 @@ body {
   font-size: 28px;
   font-weight: 800;
 }
-
 
 .ingresar-form {
   margin-bottom: 15px;
@@ -71,7 +68,6 @@ body {
   resize: none;
 }
 
-
 .boton-agregar {
   width: 100%;
   margin-top: 10px;
@@ -87,6 +83,7 @@ body {
 .boton-agregar:hover {
   background: #3aa8bd;
 }
+
 .listado {
   width: 400px;
 }
@@ -109,6 +106,7 @@ body {
   padding: 15px;
   border-radius: 8px;
 }
+
 .cita-header {
   display: flex;
   justify-content: space-between;
@@ -119,11 +117,12 @@ body {
 .mascota-nombre {
   font-weight: bold;
 }
+
 .boton-eliminar {
   background: #eaeaea;
   border: 1px solid black;
   padding: 8px 0;
-  width: 120px; 
+  width: 120px;
   font-size: 12px;
   cursor: pointer;
   border-radius: 4px;
@@ -132,6 +131,7 @@ body {
 .boton-eliminar:hover {
   background: #bbb;
 }
+
 .cita-detalles {
   font-size: 14px;
 }
