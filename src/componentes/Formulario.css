@@ -1,0 +1,28 @@
+.formulario {
+  width: 400px;
+  text-align: left;
+}
+
+.formulario-titulo {
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Staatliches", cursive;
+  letter-spacing: 1px;
+}
+
+.formulario label {
+  color: white;
+}
+
+.formulario input[type="date"],
+.formulario input[type="time"] {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+}

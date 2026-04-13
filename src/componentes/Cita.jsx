@@ -1,4 +1,6 @@
-function Cita({ mascota, dueno, fecha, hora, sintomas }) {
+import "./Cita.css";
+
+function Cita({ id, mascota, dueno, fecha, hora, sintomas, onEliminar }) {
   return (
     <div className="cita">
       <p>
@@ -16,7 +18,9 @@ function Cita({ mascota, dueno, fecha, hora, sintomas }) {
       <p>
         Sintomas: <span>{sintomas}</span>
       </p>
-      <button className="button elimnar u-full-width">Eliminar ×</button>
+      <button className="button eliminar u-full-width" onClick={() => onEliminar(id)}>
+        Eliminar ×
+      </button>
     </div>
   );
 }
